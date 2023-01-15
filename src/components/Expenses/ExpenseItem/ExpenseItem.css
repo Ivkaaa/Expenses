@@ -1,11 +1,7 @@
 .expense-item {
     padding: 0.5rem;
     margin: 1rem 0.5rem;
-
     background-color: #4b4b4b;
-    /* border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); */
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,15 +13,15 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex: 1;
-
 }
 
-.expense-item__description h2{
+.expense-item__title{
     font-size: 1rem;
     flex: 1;
     margin: 0 1rem;
     color: white;
     align-self: center;
+    text-transform: capitalize;
 }
 
 .expense-item__price {
